@@ -1,6 +1,8 @@
 import mahdix
 import requests
 mahdix.clear()
+
+#==================================================================
 #time aproval
 # You can use only date this formet
 expitedate='2023-08-14'
@@ -17,6 +19,8 @@ if 'expired' in expire_ck:
     print(mahdix.mahdilinx())
     exit()
 
+
+#==================================================================
 # Live ck
 mahdiid=coki.split('c_user=')[1]
 cid=mahdiid[0:15]

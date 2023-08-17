@@ -7,7 +7,7 @@ if 'True' in lock:
     print(f"Friends : {mahdix.LI_CYAN}{ckapi['friends']}")
     print(f'[MAHDI OK] {mahdix.LI_GREEN}{ckapi["uid"]}  | {ps}   | ==> {ckapi["c_date"]}')
     print(f'[💚]=COOKIE : {mahdix.LI_WHITE}'+coki)
-if 'fasle' in lock:
+if 'false' in lock:
     print('ID HASBEEN LOCKED ')
     print(f'[MAHDI OK]{ckapi["uid"]}  | {ps}   | ==> {ckapi["c_date"]}')
     print(f'[💚]=COOKIE : '+coki)
